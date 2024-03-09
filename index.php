@@ -25,7 +25,7 @@
             <textarea name="desciption" cols="30" rows="2" class="form-control" placeholder="Task Description">
             </textarea>
           </div>
-          <input type="submit" name="save_task" class="btn btn-succes btn-block" value="Save Task">
+          <input type="submit" name="save_task" class="btn btn-success btn-block" value="Save Task">
         </form>
       </div> 
     </div>
@@ -53,7 +53,7 @@
               <a href="edit.php?id=<?php echo $row["id"]?>" class="btn btn-secondary">
                 <i class="fas fa-marker"></i>
               </a>
-              <a href="delete.task.php?id=<?php echo $row["id"]?>" class="btn btn-danger">
+              <a href="delete_task.php?id=<?php echo $row["id"]?>" class="btn btn-danger">
                 <i class="fas fa-trash-alt"></i>
               </a>
             </td>
