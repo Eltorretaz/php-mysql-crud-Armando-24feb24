@@ -30,7 +30,7 @@
       </div> 
     </div>
     <div class="col-md-B">
-      <table class="table-bordered">
+      <table class="table-bordered w-100"> 
         <thead>
           <tr>
             <th>Title</th>
